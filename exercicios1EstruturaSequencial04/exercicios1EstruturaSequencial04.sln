@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicios1EstruturaSequencial04", "exercicios1EstruturaSequencial04\exercicios1EstruturaSequencial04.csproj", "{B4AE3352-1CB3-498F-AED2-A7446D81106C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4AE3352-1CB3-498F-AED2-A7446D81106C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4AE3352-1CB3-498F-AED2-A7446D81106C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4AE3352-1CB3-498F-AED2-A7446D81106C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4AE3352-1CB3-498F-AED2-A7446D81106C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69CF4DB5-A2F4-4FF2-873B-266C42475935}
+	EndGlobalSection
+EndGlobal
