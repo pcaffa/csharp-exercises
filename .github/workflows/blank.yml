@@ -1,0 +1,20 @@
+name: Primeiro workflow no Github
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab //habilitar que nosso workflow possa ser executada de forma manual
+  workflow_dispatch:
+
+jobs:
+  # This workflow contains a single job called "build"
+  job01:
+    runs-on: ubuntu-latest
+    steps:
+      # // esse checkout via abixar o cod fonte do qual estamos, no caso o csharp-exercises
+      - uses: actions/checkout@v3
+      - name: Run a one-line script
+        run: echo Olá, turma da fiap.
